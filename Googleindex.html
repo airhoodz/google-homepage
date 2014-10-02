@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html>
+	<head>
+        <!--The title of the page-->
+		<title>Google</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	</head>
+	<body>
+
+
+        <!--Sets the logo-->
+		<img style="height: auto; width: auto; max-width: 270px; max-height: 270px" id="logo" src="https://www.google.com/images/srpr/logo11w.png"/>
+
+        <!--Setting the button to search what is entered in the form -->
+		<button type="submit" form="Gsearch" value="Submit" id="search">Google Search</button>
+
+        <!--Setting the button for the "I'm feeling luckyt search"-->
+		<button type="submit" form="Gsearch" value="Submit" id="lucky">I'm feeling lucky</button>
+
+        <!--Setting up the form to use to take input of the search -->
+		<form action="demo_form.asp" method="get" id="Gsearch" >
+		<input id="search_box" type="text" name="searching">
+		</form>
+
+
+            <!--Setting up the navigation bar in the top right to take you to your Google+ account, your gmail account or an image search-->
+    		<ul id='ul_nav'>
+        		<li class='nav'><a href="https://accounts.google.com/ServiceLogin?service=oz&passive=1209600&continue=https://plus.google.com/?gpsrc%3Dogpy0%26tab%3DwX">+You</a></li>
+        		<li class='nav'><a href="https://www.gmail.com/intl/en/mail/help/about.html">Gmail</a></li>
+        		<li class='nav'><a href="https://www.google.com/imghp?hl=en&tab=wi&ei=vSQnVJPAK8eIsQTRkYCQDg&ved=0CAQQqi4oAg">Images</a></li>
+    		</ul>
+
+            <!--Setting up the bottom left footer that gives information about Advertising, Business and about the company-->
+    		<ul id='ul_left_footer'>
+        		<li class='left_footer'><a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a></li>
+        		<li class='left_footer'><a href="https://www.google.com/services/?fg=1">Business</a></li>
+        		<li class='left_footer'><a href="https://www.google.com/intl/en/about/">About</a></li>
+    		</ul>
+
+        <!--Bottom right footer for settintg and privacy and terms-->
+    	<ul id='ul_right_footer'>
+        	<li class='right_footer'><a href='https://www.google.com/intl/en/policies/?fg=1'>Privacy & Terms</a></li>
+        	<li class='right_footer'><a href='www.github.com'>Settings</a></li>
+    	</ul>
+
+
+    </body>
+</html>
